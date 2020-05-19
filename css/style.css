@@ -1,0 +1,53 @@
+
+
+.cabeçalho #header{
+	border: solid;
+	background-color: #0d0d26;
+	height: 200px
+
+}
+
+body{
+background: -moz-linear-gradient(right, #78CCCC, #000038);
+
+}
+
+.cabeçalho #nome{
+	color: white
+
+}
+
+
+.cabeçalho #foto{ 
+ 	width: 220px;
+ 	border-radius: 50%;
+ 	border-color: black;
+ 	border: solid;
+ 	position: absolute;
+ 	right: 42%;
+}
+.cabeçalho #git{
+	width: 32px;
+	position: absolute;
+	right: 10%;
+	top: 150px;
+	border-radius: 50%;
+	border:2px solid #00bfff;
+
+}
+.cabeçalho #link{
+	width: 32px;
+	position: absolute;
+	right: 6.5%;
+	top: 150px;
+	border-radius: 50%;
+	border:2px solid #00bfff;
+
+}
+
+div.tres {
+ width:30px;
+ height:30px;
+ border: 25px solid; /* As 4 bordas sólidas com 25px de espessura */
+ border-color: #f00 #0f0 #00f #fc0; /* cores: topo, direita, inferior, esquerda */
+ }
