@@ -1,7 +1,7 @@
 
 
 .cabeçalho #header{
-	border: solid;
+	border: solid  #0d0d26;
 	background-color: #0d0d26;
 	height: 200px
 
@@ -17,6 +17,73 @@ background: -moz-linear-gradient(right, #78CCCC, #000038);
 
 }
 
+.cabeçalho .menu{
+	position: relative;
+	width: 84%;
+	float: left;
+	bottom: -35px;
+	background-color: #00001a;
+	padding: 34px 8%;
+}
+
+
+
+
+.cabeçalho .menu li{
+	float: left;
+	margin-right: 25px;
+	list-style-type: none;
+
+
+}
+.cabeçalho .menu li #lnk1{
+	position: absolute;
+	right: 20%;
+
+}
+
+.cabeçalho .menu li #lnk1 img{
+	width: 32px;
+	position: absolute;
+	right: 10%;
+	top: -22px;
+	border-radius: 50%;
+	border:2px solid #00bfff;
+	z-index: 1;
+}
+
+
+
+
+.cabeçalho .menu li #lnk2{
+	position: absolute;
+	right: 28%;
+	
+}
+
+.cabeçalho .menu li #lnk3{
+	position: absolute;
+	right: 70%;
+	
+}
+
+.cabeçalho .menu li #lnk4{
+	position: absolute;
+	right: 78%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cabeçalho #foto{ 
  	width: 220px;
@@ -25,6 +92,7 @@ background: -moz-linear-gradient(right, #78CCCC, #000038);
  	border: solid;
  	position: absolute;
  	right: 42%;
+ 	z-index: 1;
 }
 .cabeçalho #git{
 	width: 32px;
@@ -33,6 +101,7 @@ background: -moz-linear-gradient(right, #78CCCC, #000038);
 	top: 150px;
 	border-radius: 50%;
 	border:2px solid #00bfff;
+	z-index: 1;
 
 }
 .cabeçalho #link{
@@ -42,7 +111,7 @@ background: -moz-linear-gradient(right, #78CCCC, #000038);
 	top: 150px;
 	border-radius: 50%;
 	border:2px solid #00bfff;
-
+	z-index: 1;
 }
 
 div.tres {
