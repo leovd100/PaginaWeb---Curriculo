@@ -2,7 +2,7 @@
 
 ##Projeto WEB Portifolio
 
-Este projeto tem como objetivo criar um portifólio com os conhecimentos em HTML, CSS e JavaScript que eu adquiri 
+Este projeto tem como objetivo criar um portifólio com os conhecimentos em HTML, CSS e JavaScript que estou adquirindo 
 
 
 ## Criação de NavBar simple com HTML e CSS 
