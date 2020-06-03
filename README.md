@@ -1,19 +1,23 @@
-# PaginaWeb---Curriculo
+PaginaWeb---Curriculo
+# ##Projeto WEB Portifolio
 
-##Projeto WEB Portifolio
+Este projeto tem como objetivo criar um portifólio com os conhecimentos em HTML, CSS e JavaScript que estou adquirindo.
 
-Este projeto tem como objetivo criar um portifólio com os conhecimentos em HTML, CSS e JavaScript que estou adquirindo 
+![Tela Curriculo](https://i.imgur.com/kDchKhF.png "Tela Curriculo")
 
+Estou usando 3 divs para criar este quadro:
 
-## Criação de NavBar simple com HTML e CSS 
-				
+		<div id='square'> <!--div responsavel pelo quadrado maior-->
 
-						<nav>
-							<ul class="menu">
-								<li><a id = "lnk1" href="#"><img src="../img/python.png"></a></li>
-								<li><a id = "lnk2" href="#"><b>Home</b></a></li>
-								<li><a id = "lnk3" href="#"><b>Home</b></a></li>
-								<li><a id = "lnk4" href="#"><b>Home</b></a></li>
-							</ul>
+				<div id='titlec'> <!--div responsavel pelo nome-->
+				        <h1>Leonardo Vieira Demetrio</h1>
 
-						</nav>
+				</div>	
+				<div id="rectangle"> <!--div responsavel pelo retangulo no lado esquerdo-->
+
+					<img id ='photo' src="../img/índice.png">
+
+				</div>
+
+	  </div>
+		
