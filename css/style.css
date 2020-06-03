@@ -1,122 +1,70 @@
+body {
 
-
-.cabeçalho #header{
-	border: solid  #0d0d26;
-	background-color: #0d0d26;
-	height: 200px
-
-}
-
-body{
-background: -moz-linear-gradient(right, #78CCCC, #000038);
+	background: rgb(154,180,25);
+	margin-left: 20px;
+	margin-right: 40px;
 
 }
 
-.cabeçalho #nome{
-	color: white
+#logo {
+	margin-top: 5px;
+	top: 0px;
+	font-size: 38px;
+	font-family: Arial;
+	font-style: italic;
+	color: red;
+
 
 }
 
-.cabeçalho .menu{
+.ser{
+	background-color: blue;
+}
+
+#menu li{
 	position: relative;
-	width: 84%;
 	float: left;
-	bottom: -35px;
-	background-color: #00001a;
-	padding: 34px 8%;
-}
-
-
-
-
-.cabeçalho .menu li{
-	float: left;
-	margin-right: 25px;
+	right: 250px;
 	list-style-type: none;
-
+	margin: 30px;
+	font-family: Arial;
+	font-size: 25px;
 
 }
-.cabeçalho .menu li #lnk1{
+#busca{
 	position: absolute;
-	right: 20%;
-
+	right: 8px;
 }
 
-.cabeçalho .menu li #lnk1 img{
-	width: 32px;
+
+
+#Time div img {
+
+	width: 400px;
+	height: 400px;
+	margin: 30px;
+	float: left;
+}
+
+#Time div {
+
 	position: absolute;
-	right: 10%;
-	top: -22px;
-	border-radius: 50%;
-	border:2px solid #00bfff;
-	z-index: 1;
+	right: 150px;
 }
 
+h1 {
 
-
-
-.cabeçalho .menu li #lnk2{
-	position: absolute;
-	right: 28%;
-	
+	color: red;
+	font-family: fantasy;
 }
 
-.cabeçalho .menu li #lnk3{
-	position: absolute;
-	right: 70%;
-	
+h2 {
+	color: blue;
+	font-family: fantasy;
+	text-align: center;
+}
+p{
+	font-size: 18px;
+	font-family: Arial;
 }
 
-.cabeçalho .menu li #lnk4{
-	position: absolute;
-	right: 78%;
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cabeçalho #foto{ 
- 	width: 220px;
- 	border-radius: 50%;
- 	border-color: black;
- 	border: solid;
- 	position: absolute;
- 	right: 42%;
- 	z-index: 1;
-}
-.cabeçalho #git{
-	width: 32px;
-	position: absolute;
-	right: 10%;
-	top: 150px;
-	border-radius: 50%;
-	border:2px solid #00bfff;
-	z-index: 1;
-
-}
-.cabeçalho #link{
-	width: 32px;
-	position: absolute;
-	right: 6.5%;
-	top: 150px;
-	border-radius: 50%;
-	border:2px solid #00bfff;
-	z-index: 1;
-}
-
-div.tres {
- width:30px;
- height:30px;
- border: 25px solid; /* As 4 bordas sólidas com 25px de espessura */
- border-color: #f00 #0f0 #00f #fc0; /* cores: topo, direita, inferior, esquerda */
- }
