@@ -1,70 +1,147 @@
-body {
-
-	background: rgb(154,180,25);
-	margin-left: 20px;
-	margin-right: 40px;
-
+#square{
+left:35%;
+top:20%;
+position:absolute;
+margin-left:-100px; 
+margin-top:-50px; 
+width:700px; 
+height:500px; 
+background:#fff;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 5px black;
 }
 
-#logo {
-	margin-top: 5px;
-	top: 0px;
-	font-size: 38px;
+#rectangle{
+	position:absolute;
+	width: 250px;
+	height: 500px;
+	background-color: #145267;
+	box-shadow: 1px 1px 1px black;
+	border-radius: 15px 0px 0px 15px;
+}
+#titlec h1{
+	position: absolute;
+	right: 6%;
 	font-family: Arial;
-	font-style: italic;
-	color: red;
+}
+#photo{
+width: 150px;
+border-radius: 100px;
+position: absolute;
+right: 20%;
+margin-top: 25px;
+
 
 
 }
+#rectangle hr{
+	size: 50px;
 
-.ser{
-	background-color: blue;
-}
-
-#menu li{
 	position: relative;
+	top: 42%;
+}
+.menu{
+	position: absolute;
+	z-index: 1;
+	right:  22%;
+
+	top: 42%;
+}
+.menu h5{
+	position: absolute;
+	right:  auto;
+	font-family: Arial;
+	color: white;
+	top: 120%;
+}
+
+.menu h5 b{
+	
+	color: black;
+	
+}
+
+
+
+
+
+
+
+.menu ul li{
 	float: left;
-	right: 250px;
+	margin: 8px;
+	
 	list-style-type: none;
-	margin: 30px;
-	font-family: Arial;
-	font-size: 25px;
+}
+.menu ul li img{
+	width: 48px;
+	position: relative;
+	border-radius: 100%;
 
 }
-#busca{
+
+#python{
+	width: 48px;
 	position: absolute;
-	right: 8px;
+	border-radius: 100%;
+	z-index: 1;
+	right: 50%;
+	top: 15%;
+
 }
 
 
-
-#Time div img {
-
-	width: 400px;
-	height: 400px;
-	margin: 30px;
-	float: left;
-}
-
-#Time div {
-
+#Csharp{
+	width: 50px;
 	position: absolute;
-	right: 150px;
+	border-radius: 100%;
+	z-index: 1;
+	right: 40%;
+	top: 15%;
+
 }
 
-h1 {
+#SQL{
+	width: 50px;
+	position: absolute;
+	border-radius: 30%;
+	z-index: 1;
+	right: 30%;
+	top: 15%;
 
-	color: red;
-	font-family: fantasy;
 }
 
-h2 {
-	color: blue;
-	font-family: fantasy;
-	text-align: center;
+#Knowledge hr{
+	size: 50px;
+	position: absolute;
+	width: 600px;
+	height: 2px;
+	background-color: black;
+	right: 0%;
+	top: 42%;
+	
+
 }
-p{
-	font-size: 18px;
-	font-family: Arial;
+
+#Knowledge .more #vs{
+	width: 30px;
+	position: absolute;
+	border-radius: 100%;
+	z-index: 1;
+	right: 41%;
+	top: 25%;
+
 }
+
+#Knowledge .more #pyc{
+	width: 35px;
+	position: absolute;
+	border-radius: 100%;
+	z-index: 1;
+	right: 51%;
+	top: 25%;
+
+}
+
+
 

@@ -27,3 +27,13 @@ Estou usando 3 divs para criar este quadro:
 ![img_update](https://i.imgur.com/eOjjAQV.png "img_update")
 		
 		
+
+
+
+						
+						
+###Atualização na página:
+	Botões Git e LinkedIn funcionando e criação de logo das linguagens.
+	
+	
+![ptfpt3](https://i.imgur.com/7j7PhAf.png "ptfpt3")
