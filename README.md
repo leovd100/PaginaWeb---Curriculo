@@ -12,7 +12,7 @@ Estou usando 3 divs para criar este quadro:
 				<div id='titlec'> <!--div responsavel pelo nome-->
 				        <h1>Leonardo Vieira Demetrio</h1>
 
-				</div>	
+				</div>
 				<div id="rectangle"> <!--div responsavel pelo retangulo no lado esquerdo-->
 
 					<img id ='photo' src="../img/índice.png">
@@ -20,22 +20,22 @@ Estou usando 3 divs para criar este quadro:
 				</div>
 
 	  </div>
-		
-		
-		
+
+
+
 		------------------------------------------------------------------------------
 ![img_update](https://i.imgur.com/eOjjAQV.png "img_update")
-		
-		
 
 
 
-						
-						
+
+
+
+
 ###Atualização na página:
 	Botões Git e LinkedIn funcionando e criação de logo das linguagens.
-	
-	
+
+
 ![ptfpt3](https://i.imgur.com/7j7PhAf.png "ptfpt3")
 
 ![adicionando alguns logos](https://i.imgur.com/UhpBMB5.png "adicionando alguns logos")
