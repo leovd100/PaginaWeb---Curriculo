@@ -224,29 +224,29 @@ margin-top: 25px;
 
 }
 
-#buttons li{
-	list-style-type: none;
-	float: left;
 
 
+#chap{
+	position: absolute;
+	width: 80px;
+	right: 45%;
+	border-radius: 100%;
+	top : 55%;
+	z-index: 5;
 }
-
-
-li #chap{
+#exc{
+	position: absolute;
+	width: 80px;
+	right: 5%;
+	border-radius: 100%;
+	top : 55%;
+	z-index: 5;
+}
+#cur{
 	position: absolute;
 	width: 80px;
 	border-radius: 100%;
-	top : 100%;
-
-}
-li #exc{
-	
-	width: 80px;
-	border-radius: 100%;
-	top: 20%;
-}
-li #cur{
-	
-	width: 80px;
-	border-radius: 100%;
+	right: 25%;
+	top : 55%;
+	z-index: 5;
 	}
