@@ -39,3 +39,7 @@ Estou usando 3 divs para criar este quadro:
 ![ptfpt3](https://i.imgur.com/7j7PhAf.png "ptfpt3")
 
 ![adicionando alguns logos](https://i.imgur.com/UhpBMB5.png "adicionando alguns logos")
+
+###Modificado para ter largura dinâmica  conforme o tamanho da tela
+
+![Largura dinamica](https://i.imgur.com/D4yQYpL.png "Largura dinamica")

@@ -4,16 +4,27 @@ top:20%;
 position:absolute;
 margin-left:-100px;
 margin-top:-50px;
-width:700px;
+width:56%;
+max-width: 700px;
 height:500px;
-background:#fff;
+background:orange;
 border-radius: 15px;
 box-shadow: 5px 5px 5px 5px black;
+
 }
+#ferFrm *{
+			display: none;
+		}
 
 #rectangle{
-	position:absolute;
+	position: absolute;
+	left:35%;
+	top:20%;
+	margin-left:-100px;
+    margin-top:-50px;
 	width: 250px;
+	max-width: 330px;
+	
 	height: 500px;
 	background-color: #145267;
 	box-shadow: 1px 1px 1px black;
@@ -87,6 +98,7 @@ margin-top: 25px;
 	z-index: 1;
 	right: 50%;
 	top: 15%;
+	background:#fff;
 
 }
 
@@ -98,7 +110,7 @@ margin-top: 25px;
 	z-index: 1;
 	right: 40%;
 	top: 15%;
-
+	background:#fff;
 }
 
 #SQL{
@@ -108,7 +120,7 @@ margin-top: 25px;
 	z-index: 1;
 	right: 30%;
 	top: 15%;
-
+	background:#fff;
 }
 
 #Knowledge hr{
@@ -229,24 +241,121 @@ margin-top: 25px;
 #chap{
 	position: absolute;
 	width: 80px;
-	right: 45%;
+	background: #fff;
+	right: 44%;
 	border-radius: 100%;
 	top : 55%;
+	
 	z-index: 5;
 }
 #exc{
 	position: absolute;
 	width: 80px;
-	right: 5%;
+	background: #fff;
+	right: 7%;
 	border-radius: 100%;
 	top : 55%;
+
 	z-index: 5;
 }
 #cur{
 	position: absolute;
 	width: 80px;
+	background: #fff;
 	border-radius: 100%;
 	right: 25%;
 	top : 55%;
+
 	z-index: 5;
+	}
+
+	@media (max-width: 900px){
+	     	#square{
+			left: 42%;
+			width:56%;
+			max-width: 80px
+			transform: translateX(10%);
+			flex: 1;
+			flex-direction: column;
+			align-items: center;
+
+			background: orange;
+			}
+			#photo{
+				margin-top: 8px;
+				width: 100px;
+				left: 32%;
+				border: 1px solid white;
+			}
+			#rectangle{
+			left: 42%;
+			flex: 1;
+			align-items: center;
+			justify-content: center;
+			max-width: 80%;	
+			border-radius: 15px;
+			}
+
+			#titlec h1{
+			font-size: 18px;
+			font-family: Arial;
+			position: absolute;
+			left: 5%;
+			transform: translateY(130px);
+			color: white;
+			z-index: 3;
+		}
+		
+
+
+		#rectangle .menu{
+			left: 15%;
+			top: 150px;
+			padding: 2px;
+			
+		}
+		
+		#rectangle .menu ul a img{
+			
+			width: 30px;
+			transform: translateY(15px);
+			left: -70px;
+
+			
+		}
+		.menu h5 {
+			font-size: 11px;
+			top: 0%;
+			right: 3%;
+			
+			
+		}
+
+		#square #exc, #cur, #chap, #Knowledge hr{
+			display: none;
+		}
+		#rectangle hr{
+			transform: translateY(25px);
+		}
+		
+
+		#ferFrm *{
+			display: none;
+		}	
+
+
+		#Knowledge {
+			position: absolute;
+			bottom: 180px;
+			transform: translateX(75px);
+			z-index: 2;
+
+		}
+		#Knowledge img {
+			
+			position: relative;
+			width: 38px;
+
+		}
+
 	}
