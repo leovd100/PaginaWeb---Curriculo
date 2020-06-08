@@ -122,7 +122,15 @@ margin-top: 25px;
 	top: 15%;
 	background:#fff;
 }
-
+#HTML{
+	width: 50px;
+	position: absolute;
+	border-radius: 30%;
+	z-index: 1;
+	right: 20%;
+	top: 15%;
+	background:#fff;
+}
 #Knowledge hr{
 	size: 50px;
 	position: absolute;
@@ -347,7 +355,7 @@ margin-top: 25px;
 		#Knowledge {
 			position: absolute;
 			bottom: 180px;
-			transform: translateX(75px);
+			transform: translateX(95px);
 			z-index: 2;
 
 		}
