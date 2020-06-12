@@ -30,6 +30,29 @@ box-shadow: 5px 5px 5px 5px black;
 	box-shadow: 1px 1px 1px black;
 	border-radius: 15px 0px 0px 15px;
 }
+
+#titlec .sobre {
+	position: absolute;
+	padding: 2px;
+	width: 430px;
+	right: 0px;
+	bottom: 6%;
+	margin:6px;
+	background-color: white;
+	font-family:  "Lucida Sans Unicode", "Lucida Grande", Arial,sans-serif;
+	border-radius: 2%;
+}
+
+.sobre p{
+	
+	font-size:  12px;
+	margin:0;
+}
+.sobre h3{
+	margin-top: 0px;
+}
+
+
 #titlec h1{
 	position: absolute;
 	right: 6%;
@@ -125,10 +148,19 @@ margin-top: 25px;
 #HTML{
 	width: 50px;
 	position: absolute;
-	border-radius: 30%;
+	border-radius: 100%;
 	z-index: 1;
 	right: 20%;
 	top: 15%;
+	background:#fff;
+}
+#CSS{
+	width: 50px;
+	position: absolute;
+	border-radius: 100%;
+	z-index: 1;
+	right: 50%;
+	top: 30%;
 	background:#fff;
 }
 #Knowledge hr{
@@ -140,8 +172,9 @@ margin-top: 25px;
 	right: 0%;
 	top: 42%;
 
-
 }
+
+
 
 .more #vs{
 	width: 30px;
@@ -178,6 +211,9 @@ margin-top: 25px;
 	float: left;
 	list-style-type: none;
 }
+
+
+
 
 .more #pyc{
 	position: absolute;
@@ -244,37 +280,46 @@ margin-top: 25px;
 
 }
 
-
+.c_menu{
+	display: flex;
+	flex-direction: inherit;
+	position: absolute;
+	z-index: 3;
+	left: 5%;
+	bottom: 2%;
+	
+}
 
 #chap{
-	position: absolute;
-	width: 80px;
+
+	width: 40px;
+	height: 40px;
 	background: #fff;
-	right: 44%;
-	border-radius: 100%;
-	top : 55%;
+	border-radius: 20%;
+	top : 48%;
+	margin-left:15px;
 	
-	z-index: 5;
 }
 #exc{
-	position: absolute;
-	width: 80px;
-	background: #fff;
-	right: 7%;
-	border-radius: 100%;
-	top : 55%;
 
-	z-index: 5;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 20%;
+	top : 48%;
+	margin-left:15px;
+
+	
 }
 #cur{
-	position: absolute;
-	width: 80px;
+	
+	width: 40px;
+	height: 40px;
 	background: #fff;
-	border-radius: 100%;
-	right: 25%;
-	top : 55%;
-
-	z-index: 5;
+	border-radius: 20%;
+	top : 48%;
+	margin-left:15px;
+	
 	}
 
 	@media (max-width: 900px){
@@ -350,20 +395,52 @@ margin-top: 25px;
 		#ferFrm *{
 			display: none;
 		}	
-
+		#titlec .sobre{
+			display: none;
+		}
 
 		#Knowledge {
+		
 			position: absolute;
+			align-items: center;
 			bottom: 180px;
-			transform: translateX(95px);
+			transform: translateX(95px);		
 			z-index: 2;
-
+			
 		}
 		#Knowledge img {
-			
 			position: relative;
+			
 			width: 38px;
-
+			
 		}
+
+
+
+			#python{
+				position: absolute;
+				right: 35%;
+			}
+
+
+			#Csharp{
+				position: absolute;
+				right: 32%;
+			}
+
+			#SQL{
+				position: absolute;
+				right: 28%;
+			}
+			#HTML{
+				position: absolute;
+				right: 22%;
+			}
+			#CSS{
+				position: absolute;
+				right: 117%;
+				top: 60px;
+				
+			}
 
 	}
