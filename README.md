@@ -47,3 +47,7 @@ Estou usando 3 divs para criar este quadro:
 Colocado sobre mim
 
 ![sobre](https://i.imgur.com/xfBo0Ul.png "sobre")
+
+Adicionado imagens responsivas, modificação de fontes pelo google fontes
+
+![Pagina responsiva ](https://i.imgur.com/5wO6wyU.png "Pagina responsiva ")

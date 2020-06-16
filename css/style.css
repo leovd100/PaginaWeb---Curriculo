@@ -31,25 +31,28 @@ box-shadow: 5px 5px 5px 5px black;
 	border-radius: 15px 0px 0px 15px;
 }
 
-#titlec .sobre {
+#titlec .about {
 	position: absolute;
-	padding: 2px;
-	width: 430px;
-	right: 0px;
-	bottom: 6%;
+	padding: 3px;
+	width: 410px;
+	right: 10px;
+	bottom: 4%;
 	margin:6px;
+	border:2px groove black;
 	background-color: white;
-	font-family:  "Lucida Sans Unicode", "Lucida Grande", Arial,sans-serif;
+	/*font-family:  "Lucida Sans Unicode", "Lucida Grande", Arial,sans-serif;*/
+
 	border-radius: 2%;
 }
 
-.sobre p{
-	
-	font-size:  12px;
-	margin:0;
+.about p{
+	font-family: 'Roboto', sans-serif;
+	font-size:  14px;
+	margin:1px;
 }
-.sobre h3{
+.about h3{
 	margin-top: 0px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -94,11 +97,6 @@ margin-top: 25px;
 	color: black;
 
 }
-
-
-
-
-
 
 
 .menu ul li{
@@ -285,10 +283,23 @@ margin-top: 25px;
 	flex-direction: inherit;
 	position: absolute;
 	z-index: 3;
-	left: 5%;
+	left: 6%;
 	bottom: 2%;
+
 	
 }
+
+.c_menu a img{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 20%;
+	top : 48%;
+	
+	margin-left: 15px;
+	
+}
+/*
 
 #chap{
 
@@ -322,125 +333,4 @@ margin-top: 25px;
 	
 	}
 
-	@media (max-width: 900px){
-	     	#square{
-			left: 42%;
-			width:56%;
-			max-width: 80px
-			transform: translateX(10%);
-			flex: 1;
-			flex-direction: column;
-			align-items: center;
-
-			background: orange;
-			}
-			#photo{
-				margin-top: 8px;
-				width: 100px;
-				left: 32%;
-				border: 1px solid white;
-			}
-			#rectangle{
-			left: 42%;
-			flex: 1;
-			align-items: center;
-			justify-content: center;
-			max-width: 80%;	
-			border-radius: 15px;
-			}
-
-			#titlec h1{
-			font-size: 18px;
-			font-family: Arial;
-			position: absolute;
-			left: 5%;
-			transform: translateY(130px);
-			color: white;
-			z-index: 3;
-		}
-		
-
-
-		#rectangle .menu{
-			left: 15%;
-			top: 150px;
-			padding: 2px;
-			
-		}
-		
-		#rectangle .menu ul a img{
-			
-			width: 30px;
-			transform: translateY(15px);
-			left: -70px;
-
-			
-		}
-		.menu h5 {
-			font-size: 11px;
-			top: 0%;
-			right: 3%;
-			
-			
-		}
-
-		#square #exc, #cur, #chap, #Knowledge hr{
-			display: none;
-		}
-		#rectangle hr{
-			transform: translateY(25px);
-		}
-		
-
-		#ferFrm *{
-			display: none;
-		}	
-		#titlec .sobre{
-			display: none;
-		}
-
-		#Knowledge {
-		
-			position: absolute;
-			align-items: center;
-			bottom: 180px;
-			transform: translateX(95px);		
-			z-index: 2;
-			
-		}
-		#Knowledge img {
-			position: relative;
-			
-			width: 38px;
-			
-		}
-
-
-
-			#python{
-				position: absolute;
-				right: 35%;
-			}
-
-
-			#Csharp{
-				position: absolute;
-				right: 32%;
-			}
-
-			#SQL{
-				position: absolute;
-				right: 28%;
-			}
-			#HTML{
-				position: absolute;
-				right: 22%;
-			}
-			#CSS{
-				position: absolute;
-				right: 117%;
-				top: 60px;
-				
-			}
-
-	}
+	*/
