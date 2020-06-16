@@ -6,7 +6,10 @@
 		<meta name="viewport" content="width-device-width, initial-scale-1.0">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+		<script type="text/javascript" src="../javascript/modal.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+		
+
 	</head>
 
 	<body >
@@ -31,9 +34,9 @@
 								<img id = 'cur' src="../img/curriculo.jpg">
 
 																-->
-								<a href="ch"><img  src="../img/chapeu.png">	</a>
-								<a href="exc"><img  src="../img/exclamacao.png"> </a>
-								<a href="cu"><img  src="../img/curriculo.jpg"> </a>
+								<a onclick="abrirModal()"><img  src="../img/chapeu.png">	</a>
+								<a onclick="abrirModal()"><img  src="../img/exclamacao.png"> </a>
+								<a onclick="abrirModal()"><img  src="../img/curriculo.jpg"> </a>
 
 
 
@@ -94,7 +97,14 @@
 				</div>
 
 
+				<button class="Abrirmodal" onclick="abrirModal()">modal</button>
 
+
+				<div class="bg-modal" id="modal">
+					<div class="modal">
+						<span class="close" onclick="fecharModal()">&times;</span>
+					</div>
+				</div>
 
 
 	</body>
